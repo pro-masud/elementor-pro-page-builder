@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Victor+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <div class="aside">
+    <div class="head-menu">
+        <a class="menu" href="#"><i class="fa-solid fa-bars"></i></a>
+        <a class="text-center title">Elementor Pro</a>
+        <a class="menu-right" href="#"><i class="fa-solid fa-grip-vertical"></i></a>
+    </div> 
+
+    <div class="container my-5">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-header">
+                Section Dynamic
+              </div>
+              <div class="card-body">
+                <div class="form-groups my-3 heading">
+                    <label for="">Heading</label>
+                    <input id="heading" class="form-control"  type="text">
+                </div>
+
+                <div class="form-groups my-3">
+                  <label for="">Text Align</label>
+                  <label><br><input name="align" id="heading" class="Align"  type="radio" value="left">Left</label>
+                  <label><input name="align" id="heading" class="Align"  type="radio" value="center">Center</label>
+                  <label><input name="align" id="heading" class="Align"  type="radio" value="right">Right</label>
+                </div>
+
+                <div class="form-groups my-3">
+                    <label for="">Size</label>
+                    <input id="font-size" class="w-100" min="0" max="100" step="1px" type="range">
+                </div>
+
+                <div class="form-groups my-3">
+                    <label for="">Color</label>
+                    <input class="color" type="color">
+                </div>
+
+                <div class="form-groups my-3">
+                    <label for="">Font Family</label>
+                    <select name="" id="font-family">
+                        <option value="">-select-</option>
+                        <option value="Impact">Impact</option>
+                        <option value="Poppins">Poppins</option>
+                        <option value="Roboto">Roboto</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group mt-3">
+                  <label class="mb-1">Font Weight</label>
+                  <br>
+                  <label><input type="radio" name="title-fw" class="font-weight" value="Lighter">Lighter</label>
+                  <label class="mx-3"><input type="radio" name="title-fw" class="font-weight" value="Normal">Normal</label>
+                  <label class="mx-3"><input type="radio" name="title-fw" class="font-weight" value="Bold">Bold</label>
+                </div>
+
+
+                <div class="form-groups my-3 desc">
+                    <label for="">Description</label>
+                    <input id="description" class="form-control"  type="text">
+                </div>
+                <div class="form-groups my-3">
+                    <label for="">Text Align</label>
+                  <label><br><input name="align" id="comments" class="Alignp"  type="radio" value="left">Left</label>
+                  <label><input name="align" id="comments" class="Alignp"  type="radio" value="center">Center</label>
+                  <label><input name="align" id="comments" class="Alignp"  type="radio" value="right">Right</label>
+
+                </div>
+
+                <!-- size -->
+
+                <div class="form-groups my-3">
+                    <label for="">Size</label>
+                    <input id="font-sizep" class="w-100" min="0" max="100" step="1px" type="range">
+                </div>
+
+                <!-- Color -->
+
+                <div class="form-groups my-3">
+                    <label for="">Color</label>
+                    <input class="colorp" type="color">
+                </div>
+
+                <!-- font-family -->
+                <div class="form-groups my-3">
+                    <label for="">Font Family</label>
+                    <select name="" id="font-familyp">
+                        <option value="">-select-</option>
+                        <option value="Impact">Impact</option>
+                        <option value="Poppins">Poppins</option>
+                        <option value="Roboto">Roboto</option>
+                    </select>
+                </div>
+                <br>
+                <!-- Font Weight -->
+                <div class="form-group mt-3">
+                      <label class="mb-1">Font Weight</label>
+                      <br>
+                      <label><input type="radio" name="title-fw" class="font-weightp" value="Lighter">Lighter</label>
+                      <label class="mx-3"><input type="radio" name="title-fw" class="font-weightp" value="Normal">Normal</label>
+                      <label class="mx-3"><input type="radio" name="title-fw" class="font-weightp" value="Bold">Bold</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="main-content">
+    <div class="col-md-9">
+        <section>
+            <h1>This is heading here</h1>
+        </section>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ab?</p>
+    </section>
+    <button class="btn">Click</button>
+  </div>
+
+
+    <script src="./src/main.js"></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/function.js"></script>
+  
+  
+    
+</body>
+</html>
